@@ -1,4 +1,4 @@
-*Actividad Lista Encantada Humana 
+# Actividad Lista Encantada Humana 
 
 | Imagen 1 | Imagen 2 | Imagen 3 |
 |-----------|-----------|-----------|

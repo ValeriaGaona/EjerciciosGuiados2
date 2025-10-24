@@ -10,6 +10,8 @@
 | *Actividad en clase: Ejercicio de Pila con VisuAlgo* | 📄 PDF | Ejercicio de Pila con VisuAlgo| [Ver PDF](https://github.com/ValeriaGaona/EjerciciosGuiados2/blob/main/U2ACT2_EjercicioDePilaConVisuAlgo.pdf) |
 | *Actividad en clase: Colas* | 📄 PDF | Ejercicio de Colas NearPool| [Ver PDF](https://github.com/ValeriaGaona/EjerciciosGuiados2/blob/main/Colas-NearPool.pdf) |
 
+#
+
 ## Actividad Lista Encantada Humana 
 
 | Imagen 1 | Imagen 2 | Imagen 3 |
@@ -18,7 +20,7 @@
 
 
 
-
+#
 
 # Codigo de ejercicio en clase: Pilas
 
@@ -152,8 +154,8 @@ public class Main {
     }
 }
 ```
-
-
+#
+#
 ## Actividad en clase: Codigo colas
 
 ```

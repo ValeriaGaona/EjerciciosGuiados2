@@ -1,8 +1,20 @@
+#
+
+##  Tabla de Contenidos
+
+| Documento | Tipo | Descripción | Ver PDF |
+|-----------|------|-------------|---------|
+| *Lista enlazada con VisuAlgo* | 📄 PDF | Ejercicios de listas enlazadas | [Ver PDF](https://github.com/ValeriaGaona/EjerciciosGuiados2/blob/main/VisuAlgo-VGG.pdf) |
+| *Curso Listas Java* | 📄 PDF | Curso completo sobre listas en Java | [Ver PDF](https://github.com/ValeriaGaona/EjerciciosGuiados2/blob/main/ActividadPreguntasListas-VGG.pdf)|
+| *Actividad en clase: listas, listas dobles Java* | 📄 PDF | Actividades prácticas de listas | [Ver PDF](https://github.com/ValeriaGaona/EjerciciosGuiados2/blob/main/U2ACT3_Pr%C3%A1ctica_Manual_y_Algor%C3%ADtmica_Lista.pdf) |
+
 # Actividad Lista Encantada Humana 
 
 | Imagen 1 | Imagen 2 | Imagen 3 |
 |-----------|-----------|-----------|
 | <img src="https://github.com/user-attachments/assets/a092f89b-a822-4499-91f0-0ef8d31ae16a" width="200"> | <img src="https://github.com/user-attachments/assets/ed94720f-23f0-4c21-a8eb-8ab748a86f80" width="200"> | <img src="https://github.com/user-attachments/assets/e11b4929-2bee-4dc5-9cbf-6e0864d2cb94" width="200"> |
+
+
 
 
 

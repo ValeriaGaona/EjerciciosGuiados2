@@ -8,7 +8,7 @@
 | *Curso Listas Java* | 📄 PDF | Curso completo sobre listas en Java | [Ver PDF](https://github.com/ValeriaGaona/EjerciciosGuiados2/blob/main/ActividadPreguntasListas-VGG.pdf)|
 | *Actividad en clase: listas, listas dobles Java* | 📄 PDF | Actividades prácticas de listas | [Ver PDF](https://github.com/ValeriaGaona/EjerciciosGuiados2/blob/main/U2ACT3_Pr%C3%A1ctica_Manual_y_Algor%C3%ADtmica_Lista.pdf) |
 | *Actividad en clase: Ejercicio de Pila con VisuAlgo* | 📄 PDF | Ejercicio de Pila con VisuAlgo| [Ver PDF](https://github.com/ValeriaGaona/EjerciciosGuiados2/blob/main/U2ACT2_EjercicioDePilaConVisuAlgo.pdf) |
-| *Actividad en clase: Colas* | 📄 PDF | Ejercicio de Colas NearPool| [Ver PDF]() |
+| *Actividad en clase: Colas* | 📄 PDF | Ejercicio de Colas NearPool| [Ver PDF](https://github.com/ValeriaGaona/EjerciciosGuiados2/blob/main/Colas-NearPool.pdf) |
 
 ## Actividad Lista Encantada Humana 
 

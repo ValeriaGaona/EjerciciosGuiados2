@@ -7,7 +7,8 @@
 | *Lista enlazada con VisuAlgo* | 📄 PDF | Ejercicios de listas enlazadas | [Ver PDF](https://github.com/ValeriaGaona/EjerciciosGuiados2/blob/main/VisuAlgo-VGG.pdf) |
 | *Curso Listas Java* | 📄 PDF | Curso completo sobre listas en Java | [Ver PDF](https://github.com/ValeriaGaona/EjerciciosGuiados2/blob/main/ActividadPreguntasListas-VGG.pdf)|
 | *Actividad en clase: listas, listas dobles Java* | 📄 PDF | Actividades prácticas de listas | [Ver PDF](https://github.com/ValeriaGaona/EjerciciosGuiados2/blob/main/U2ACT3_Pr%C3%A1ctica_Manual_y_Algor%C3%ADtmica_Lista.pdf) |
-| *Actividad en clase: Ejercicio de Pila con VisuAlg* | 📄 PDF | Ejercicio de Pila con VisuAlgo| [Ver PDF](https://github.com/ValeriaGaona/EjerciciosGuiados2/blob/main/U2ACT2_EjercicioDePilaConVisuAlgo.pdf) |
+| *Actividad en clase: Ejercicio de Pila con VisuAlgo* | 📄 PDF | Ejercicio de Pila con VisuAlgo| [Ver PDF](https://github.com/ValeriaGaona/EjerciciosGuiados2/blob/main/U2ACT2_EjercicioDePilaConVisuAlgo.pdf) |
+| *Actividad en clase: Colas* | 📄 PDF | Ejercicio de Colas NearPool| [Ver PDF]() |
 
 ## Actividad Lista Encantada Humana 
 
@@ -148,6 +149,210 @@ public class Main {
         System.out.println(nombres.peek());
         //se muestran todos los nombres de la pila en orden
         nombres.printStack();
+    }
+}
+```
+
+
+## Actividad en clase: Codigo colas
+
+```
+package colas;
+import java.util.Scanner;
+/**
+ *  Actividad: Colas
+ * @author Valeria García Gaona - GTID141 - 1224100671 - Fecha 24/10/25 - 1224100671.vgg@gmail.com
+ */
+public class ColaMain{
+    public static void main(String[] args) {
+        Cola<String> colaTareas = new Cola<>();
+        Scanner scanner = new Scanner(System.in);
+        int opcion;
+
+        do {
+            System.out.println("\n MENU DE OPERACIONES ");
+            System.out.println("1. Agregar tarea");
+            System.out.println("2. Mostrar tamaño de la cola");
+            System.out.println("3. Consultar frente");
+            System.out.println("4. Ejecutar tarea (quitar)");
+            System.out.println("5. Mostrar estado final de la cola");
+            System.out.println("0. Salir");
+            System.out.print("Selecciona una opcion: ");
+            opcion = scanner.nextInt();
+            scanner.nextLine(); //Espera enter para seguir
+            
+
+            switch (opcion) {
+                case 1:
+                    System.out.print("Ingresa la tarea: ");
+                    String tarea = scanner.nextLine();
+                    colaTareas.insertar(tarea);
+                    scanner.nextLine();
+                    break;
+                case 2:
+                    System.out.println("Tamaño actual: " + colaTareas.getTamaño());
+                    scanner.nextLine();
+                    break;
+                case 3:
+                    if (!colaTareas.colaVacia()) {
+                        System.out.println("Frente: " + colaTareas.frente());
+                    }
+                    scanner.nextLine();
+                    break;
+                case 4:
+                    String tareaQuitada = colaTareas.quitar();
+                    if (tareaQuitada != null) {
+                        System.out.println("Tarea ejecutada: " + tareaQuitada);
+                    }
+                    scanner.nextLine();
+                    break;
+                case 5:
+                    mostrarEstadoFinal(colaTareas);
+                    scanner.nextLine();
+                    break;
+                case 0:
+                    System.out.println("Saliendo del programa...");
+                    break;
+                default:
+                    System.out.println("Opcion invalida.");
+            }
+        } while (opcion != 0);
+    }
+
+    // Método auxiliar para mostrar el estado final
+    public static void mostrarEstadoFinal(Cola<String> cola) {
+        Nodo<String> actual = cola.getCabeza();
+        System.out.println("Estado final de la cola:");
+        while (actual != null) {
+            System.out.println("- " + actual.getDato());
+            actual = actual.getSiguiente();
+        }
+        System.out.println("Tamaño: " + cola.getTamaño());
+    }
+}
+```
+
+```
+package colas;
+/**
+ *  Actividad: Colas
+ * @author Valeria García Gaona - GTID141 - 1224100671 - Fecha 24/10/25 - 1224100671.vgg@gmail.com
+ */
+public class Nodo<T> {
+    private T dato;
+    private Nodo siguiente;
+    
+    public Nodo(T data){
+        dato=data;
+        siguiente=null;
+    }
+
+    public T getDato() {
+        return dato;
+    }
+
+    public void setDato(T dato) {
+        this.dato = dato;
+    }
+
+    public Nodo getSiguiente() {
+        return siguiente;
+    }
+
+    public void setSiguiente(Nodo siguiente) {
+        this.siguiente = siguiente;
+    }
+
+    @Override
+    public String toString() {
+        return "Nodo{" + "dato=" + dato + ", siguiente=" + siguiente + '}';
+    }
+}
+```
+
+```
+package colas;
+
+/**
+ *  Actividad: Colas
+ * @author Valeria García Gaona - GTID141 - 1224100671 - Fecha 24/10/25 - 1224100671.vgg@gmail.com
+ */
+public class Cola <T>{
+    private Nodo<T> cabeza;
+    private Nodo<T>cola;
+    private int tamaño;
+
+    public Cola() {
+        this.cabeza = null;
+        this.cola = null;
+        this.tamaño = 0;
+    }
+    
+    public Nodo<T> getCabeza() {
+        return cabeza;
+    }
+
+    public void setCabeza(Nodo<T> cabeza) {
+        this.cabeza = cabeza;
+    }
+
+    public Nodo<T> getCola() {
+        return cola;
+    }
+
+    public void setCola(Nodo<T> cola) {
+        this.cola = cola;
+    }
+
+    public int getTamaño() {
+        return tamaño;
+    }
+
+    public void setTamaño(int tamaño) {
+        this.tamaño = tamaño;
+    }
+    
+    public boolean colaVacia(){
+        return cabeza==null;
+    } 
+    
+    public void insertar(T elemento) {
+        Nodo<T> nuevoNodo = new Nodo<>(elemento);
+
+        if (colaVacia()) { // Caso 1: La cola está vacía
+            cabeza = nuevoNodo;
+            cola = nuevoNodo;
+        } else { // Caso 2: La cola NO está vacía
+            cola.setSiguiente(nuevoNodo);
+            cola = nuevoNodo;
+        }
+
+        tamaño++; // Incrementar tamaño
+        System.out.println("-> Insertado: " + elemento);
+    }
+
+    public T quitar() {
+        if (colaVacia()) {
+            System.out.println("Error: La cola esta vacia.");
+            return null;
+        }
+
+        T datoQuitado = cabeza.getDato(); // Guardamos el dato a devolver
+        cabeza = cabeza.getSiguiente();   // Avanzamos la cabeza
+
+        if (cabeza == null) { // Si ya no hay elementos, actualizamos cola
+            cola = null;
+        }
+
+        tamaño--;
+        return datoQuitado;
+    }
+
+    public T frente(){
+        if(colaVacia()){
+            System.out.println("Error: la cola esta vacia");
+        }
+        return this.cabeza.getDato();
     }
 }
 ```

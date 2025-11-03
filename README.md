@@ -24,9 +24,15 @@
 
 ## Actividad Lista Encantada Humana 
 
-| Imagen 1 | Imagen 2 | Imagen 3 |
-|-----------|-----------|-----------|
+| Imagen 1 | Imagen 2 | Imagen 3 | Cierre reflexivo |
+|-----------|-----------|-----------|----------|
 | <img src="https://github.com/user-attachments/assets/a092f89b-a822-4499-91f0-0ef8d31ae16a" width="200"> | <img src="https://github.com/user-attachments/assets/ed94720f-23f0-4c21-a8eb-8ab748a86f80" width="200"> | <img src="https://github.com/user-attachments/assets/e11b4929-2bee-4dc5-9cbf-6e0864d2cb94" width="200"> |
+• ¿Qué aprendiste sobre las referencias en una lista enlazada?
+    El nodo contiene dos partes, el dato y su referencia, las referencias permiten recorrer el nodo desde la cabeza al final.
+• ¿Qué pasa si se rompe un enlace?
+    La referencia se pierde si no hay mas nodos referenciados al eliminado o sobreescribe a la siguiente.
+• ¿Cómo se relaciona esto con el código real en Java?
+    se relaciona en como se crea el nodo, se elimina sin romper la lista, se insertan los nodos y se recorre la lista. |
 
 
 

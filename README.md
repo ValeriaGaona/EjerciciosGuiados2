@@ -16,7 +16,8 @@
 | *Actividad en clase: listas, listas dobles Java* | 📄 PDF | Actividades prácticas de listas | [Ver PDF](https://github.com/ValeriaGaona/EjerciciosGuiados2/blob/main/U2ACT3_Pr%C3%A1ctica_Manual_y_Algor%C3%ADtmica_Lista.pdf) |
 | *Actividad en clase: Ejercicio de Pila con VisuAlgo* | 📄 PDF y Códigos | Ejercicio de Pila con VisuAlgo| [Ver PDF](https://github.com/ValeriaGaona/EjerciciosGuiados2/blob/main/U2ACT2_EjercicioDePilaConVisuAlgo.pdf) [Ver Códigos](https://github.com/ValeriaGaona/EjerciciosGuiados2/blob/main/README.md#codigo-de-ejercicio-en-clase-pilas) |
 | *Actividad en clase: Colas* | 📄 PDF y Códigos | Ejercicio de Colas NearPool | [Ver PDF](https://github.com/ValeriaGaona/EjerciciosGuiados2/blob/main/Colas-NearPool.pdf)  [Ver Códigos](https://github.com/ValeriaGaona/EjerciciosGuiados2?tab=readme-ov-file#actividad-en-clase-codigo-colas) |
-| *Actividad en clase: Ordenamiento burbuja* | 📄 PDF | Ordenammiento Burbuja | [Ver PDF](https://github.com/ValeriaGaona/EjerciciosGuiados2/blob/main/Ordenamiento%20por%20Intercambio%20por%20tarjetas.pdf) |
+| *Actividad en clase: Ordenamiento burbuja* | 📄 PDF | Ordenamiento Burbuja | [Ver PDF](https://github.com/ValeriaGaona/EjerciciosGuiados2/blob/main/Ordenamiento%20por%20Intercambio%20por%20tarjetas.pdf) |
+| *Actividad en clase: Nearpool* | 📄 PDF | Ordenammiento Y Busquedas | [Ver PDF](https://github.com/ValeriaGaona/EjerciciosGuiados2/blob/main/NearpoolBusquedasYOrdenamiento-VGG.pdf) |
 
 
 
